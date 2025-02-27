@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(199, 199, 199);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(163, 25, 25);
+    color: white;
+    padding: 20px;
+    border-radius: 80px;
+    font-size: 20px;
+    margin: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1{
+    margin-left: 20%;
+    font-family: serif;
+    float: left;
+    margin-right: 30%;
+    
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    margin: 20px;
+    padding: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 25px;
+    width: 30% ;
+}
+
+article {
+    background-color: white;
+     margin-bottom: 20px;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    float: left;
+    margin-right: 40px;
+}
+
+article img {
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+}
+
+article h3 {
+    margin: 10px 0;
+}
+
+article p {
+    margin: 5px 0;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+/* Media Query para telas maiores, peguei  */
+@media (min-width: 768px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    article {
+        width: 45%;
+    }
+}
+
+@media (min-width: 1024px) {
+    article {
+        width: 30%;
+    }
+}
